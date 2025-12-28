@@ -1,0 +1,46 @@
+body{
+    padding:0%;
+    width:0%;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.parent{
+    display: flex; /* used to initialize flex layout, used to convert vertical display to horizontal display */
+    justify-content: space-between;/*flex-start/center/flex-end/space-between/space-around/space-evenly used to adjust html elements horizontally*/
+    align-items: center;
+    padding: 12px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+
+}
+.logo{
+    width:13vw;
+    height: auto; 
+    size: 5px;/*vw means 13 percentage of the screen*/ 
+}
+/* gap =used to maintain a gap between flex items
+align-items= flex-start/center/flex-end/stretch used to impliment vertical alignment
+flex-wrap= wrap/nowrap/wrape-reverse; used to used to wrap flex items*/
+.menu{
+    display:flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+
+
+}
+.menu a:hover{
+    color: orange;
+}

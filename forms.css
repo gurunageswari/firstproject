@@ -1,0 +1,17 @@
+fieldset{
+    width:70%;
+    padding:20px;
+    margin:200px auto;
+    border-radius:30px ;
+    color:antiquewhite;
+    background:linear-gradient(45deg,red,green)
+   
+
+
+}
+legend{
+    background:linear-gradient(45deg,red,green);
+    padding:10px;
+    border:5px solid gray;
+    border-radius: 30px;
+}
